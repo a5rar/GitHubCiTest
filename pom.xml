@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.ci</groupId>
 	<artifactId>GithubCiTest</artifactId>
-	<version>0.0.2-SNAPSHOT</version>
+	<version>0.0.3-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<name>GithubCiTest</name>
@@ -53,12 +52,12 @@
 		<repository>
 			<id>central</id>
 			<name>asrar-mac.local-releases</name>
-			<url>http://localhost:8081/artifactory/libs-release-local</url>
+			<url>http://localhost:8081/artifactory/libs-release</url>
 		</repository>
 		<snapshotRepository>
 			<id>snapshots</id>
 			<name>asrar-mac.local-snapshots</name>
-			<url>http://localhost:8081/artifactory/ext-snapshot-local</url>
+			<url>http://localhost:8081/artifactory/libs-snapshot</url>
 		</snapshotRepository>
 	</distributionManagement>
 
