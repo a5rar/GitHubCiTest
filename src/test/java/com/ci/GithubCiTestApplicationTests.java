@@ -11,6 +11,7 @@ public class GithubCiTestApplicationTests {
 
 	@Test
 	public void contextLoads() {
+		System.out.println("Test run successfully");
 	}
 
 }
