@@ -4,7 +4,7 @@
 
 	<groupId>com.ci</groupId>
 	<artifactId>GithubCiTest</artifactId>
-	<version>0.0.4-SNAPSHOT</version>
+	<version>0.0.5-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<name>GithubCiTest</name>
@@ -54,11 +54,6 @@
 			<name>libs-release</name>
 			<url>http://localhost:8081/artifactory/libs-release</url>
 		</repository>
-		<snapshotRepository>
-			<id>snapshots</id>
-			<name>libs-snapshot</name>
-			<url>http://localhost:8081/artifactory/libs-snapshot</url>
-		</snapshotRepository>
 	</distributionManagement>
 
 
