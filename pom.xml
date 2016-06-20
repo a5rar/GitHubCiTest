@@ -51,12 +51,12 @@
 	<distributionManagement>
 		<repository>
 			<id>central</id>
-			<name>libs-releases</name>
+			<name>libs-release</name>
 			<url>http://localhost:8081/artifactory/libs-release</url>
 		</repository>
 		<snapshotRepository>
 			<id>snapshots</id>
-			<name>libs-snapshots</name>
+			<name>libs-snapshot</name>
 			<url>http://localhost:8081/artifactory/libs-snapshot</url>
 		</snapshotRepository>
 	</distributionManagement>
