@@ -4,7 +4,7 @@
 
 	<groupId>com.ci</groupId>
 	<artifactId>GithubCiTest</artifactId>
-	<version>0.0.10-SNAPSHOT</version>
+	<version>0.0.10</version>
 	<packaging>jar</packaging>
 
 	<name>GithubCiTest</name>
@@ -45,7 +45,7 @@
 		<connection>scm:git:https://github.com/a5rar/GitHubCiTest.git</connection>
 		<developerConnection>scm:git:git@github.com:a5rar/GitHubCiTest.git</developerConnection>
 		<url>https://github.com/a5rar/GitHubCiTest</url>
-		<tag>HEAD</tag>
+		<tag>GithubCiTest-0.0.10</tag>
 	</scm>
 
 <distributionManagement>
