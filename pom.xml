@@ -52,12 +52,12 @@
 		<repository>
 			<id>central</id>
 			<name>asrar-mac.local-releases</name>
-			<url>http://localhost:8081/artifactory/libs-release</url>
+			<url>http://localhost:8081/artifactory/libs-release-local</url>
 		</repository>
 		<snapshotRepository>
 			<id>snapshots</id>
 			<name>asrar-mac.local-snapshots</name>
-			<url>http://localhost:8081/artifactory/libs-snapshot</url>
+			<url>http://localhost:8081/artifactory/ext-snapshot-local</url>
 		</snapshotRepository>
 	</distributionManagement>
 
