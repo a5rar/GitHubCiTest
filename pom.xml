@@ -4,7 +4,7 @@
 
 	<groupId>com.ci</groupId>
 	<artifactId>GithubCiTest</artifactId>
-	<version>0.0.8-SNAPSHOT</version>
+	<version>0.0.9-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<name>GithubCiTest</name>
@@ -50,12 +50,12 @@
 
 <distributionManagement>
     <repository>
-        <id>central</id>
+        <id>ci-central</id>
         <name>asrar-mac.local-releases</name>
         <url>http://localhost:8081/artifactory/libs-release-local</url>
     </repository>
     <snapshotRepository>
-        <id>snapshots</id>
+        <id>ci-snapshots</id>
         <name>asrar-mac.local-snapshots</name>
         <url>http://localhost:8081/artifactory/libs-snapshot-local</url>
     </snapshotRepository>
